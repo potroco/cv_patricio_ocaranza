@@ -1,0 +1,280 @@
+/* Fuentes utilizadas*/
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+*{
+    font-family: "Electrolize";
+    margin: 0;
+    padding: 0;
+}
+
+/* Comportamiento de scroll */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Seccion INICIO */
+.inicio{
+    background: linear-gradient(rgba(255, 255, 255, 0.8),rgba(0,0,0,0.3)),
+    url(placa_verde.jpg);
+    background-size: cover;
+    background-position: center center;
+    color:#000;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 10px;
+    background-color: #6ACF65;
+    padding: 15px;
+    border-radius: 20px 5px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.inicio .contenido-seccion header img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: #6ACF65;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px 5px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #000;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    }
+.inicio .contenido-seccion .info h2{
+    font-size: normal;
+    font-size: 20px;
+    margin-top: -5px;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info .redes{
+    margin: 5px 0;
+}
+.inicio .contenido-seccion .info .redes a{
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #6ACF65;
+    border-radius: 20px 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 40px 10px;
+    transition: 0.3s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color: #fff;
+    box-shadow: 0 0 35px #000;
+}
+.inicio .contenido-seccion .foto{
+    position: relative;
+    top: 4px;
+}
+
+
+
+/* Seccion SOBRE MI */
+.sobremi{
+    color: #6ACF65;
+    text-align: center; 
+}
+.sobremi .contenido-seccion{
+    max-width: auto;
+    margin: auto;
+    padding: 40px 10px;
+    background: #000;
+}
+.sobremi .contenido-seccion h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 10px;
+}
+.sobremi .contenido-seccion p{
+    max-width: 700px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+.sobremi .contenido-seccion .texto-sobremi{
+    font-size: 20px;
+}
+.sobremi .contenido-seccion .fila{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;  
+}
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+.sobremi .contenido-seccion .fila .col i{
+    font-size: 25px;
+    color: #6ACF65;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #6ACF65;
+    line-height: 40px;
+    border-radius: 20px 5px;
+}
+.sobremi .contenido-seccion .fila .col .titulo-detalle{
+    font-size: 25px;
+}
+.sobremi .contenido-seccion .fila .col span{
+    display: block;
+    padding-bottom: 5px;
+}
+
+
+
+/* Seccion Habilidades */
+.habilidades{
+    color: #6ACF65;
+    text-align: center; 
+}
+.habilidades .contenido-seccion{
+    max-width: auto;
+    margin: auto;
+    padding: 40px 10px;
+    background: #fff;
+}
+.habilidades .contenido-seccion h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 10px;
+}
+.habilidades .contenido-seccion .diseño span{
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+.habilidades .contenido-seccion .diseño .programas img{
+    width: auto;
+    height: 130px;
+    padding: 10px;
+}
+.habilidades .contenido-seccion .programacion span{
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+.habilidades .contenido-seccion .programacion .programas img{
+    width: auto;
+    height: 250px;
+    padding: 10px;
+}
+.habilidades .contenido-seccion .electronica span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.habilidades .contenido-seccion .electronica p{
+    display: block;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Seccion EXPERIENCIA */
+.experiencia{
+    color: #6ACF65;
+    text-align: center; 
+}
+.experiencia .contenido-seccion{
+    max-width: auto;
+    margin: auto;
+    padding: 40px 10px;
+    background: #000;
+}
+.experiencia .contenido-seccion h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 10px;
+}
+.experiencia .contenido-seccion table{
+    margin-top: 20px;    
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.experiencia .contenido-seccion table .puesto{
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+}
+.experiencia .contenido-seccion table .año{
+    padding: 20px;
+}
+.experiencia .contenido-seccion table .donde{
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+}
+
+
+/* Seccion CONTACTO */
+.contacto{
+    color: #6ACF65;
+    text-align: center; 
+}
+.contacto .contenido-seccion{
+    max-width: auto;
+    margin: auto;
+    padding: 40px 10px;
+    background: #fff;
+}
+.contacto .contenido-seccion h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 10px;
+}
+.contacto .contenido-seccion .col{
+    margin-top: 40px;
+}
+.contacto .contenido-seccion .col span{
+    color: #000;
+}
+
+
+@media screen and (max-width:800px){
+
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .inicio .contenido-seccion .foto img{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+
+     /* FALTA LAS OTRAS IMAGENES SER RESPONSIVAS */
+}
