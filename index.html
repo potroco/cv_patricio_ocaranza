@@ -11,7 +11,7 @@
     <!-- Informacion Open Graph -->
     <meta property="og:title" content="CV Patricio H. Ocaranza Nieto" />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="Foto de Perfil" src="foto_perfil.png" />
+    <meta property="og:image" content="https://findersfree.com/wp-content/uploads/2011/12/Printed-computer-circuit-boards-green.jpg"/>
     <meta property="og:description" content="CV Patricio H. Ocaranza Nieto" />
 </head>
 
@@ -20,14 +20,14 @@
     <section class="inicio" id="inicio">
         <div class="contenido-seccion">
             <header>
-                <div class="nav-bar">
+                <div class="nav-bar" onclick="onOffMenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <nav class="nav" id="nav">
                     <a href="#inicio">INICIO</a>
                     <a href="#sobremi">SOBRE MI</a>
                     <a href="#habilidades">HABILIDADES</a>
-                    <a href="experiencia">EXPERIENCIA LABORAL</a>
+                    <a href="#experiencia">EXPERIENCIA LABORAL</a>
                     <a href="#contacto">CONTACTO</a>
                 </nav>
                 <div class="logo">
@@ -38,8 +38,8 @@
                 <h1>PATRICIO H. OCARANZA NIETO</h1>
                 <h2>PROGRAMADOR - DISEÑADOR - ING. ELECTRONICO</h2>
                 <div class="redes">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>              
+                    <a href="#https://www.instagram.com/potrocox/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#https://www.linkedin.com/in/patricio-h-ocaranza-nieto-8762a3108/"><i class="fa-brands fa-linkedin"></i></a>              
                 </div>
             </div>
             <div class="foto">
@@ -49,32 +49,43 @@
     </section>
 
     <!-- Seccion Sobre Mi -->
-    <sectio class="sobremi" id="sobremi">
+    <section class="sobremi" id="sobremi">
         <div class="contenido-seccion">
             <h2 class="titulo-seccion">Sobre Mi</h2>
-            <p class="texto-sobremi">textomas importante</p>
+            <p class="texto-sobremi">Soy Patricio, estudiante de ingenieria electronica oriundo de Curuzú Cuatiá (Ctes.). Actualmente vivo en la ciudad de San Luis Capital en donde estudio en la UNSL y trabajo como ingeniero de procesos en una fabrica llamada Amcor.</p>
             <div class="fila">
                 <div class="col">
                     <i class="fa-solid fa-user"></i>
                     <span class="titulo-detalle">Perfil</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                    <ul>
+                        <li>Poseo conocimientos teóricos y prácticos necesarios para diseñar, evaluar, analizar y mejorar procesos en empresas de manufactura y servicios.</li> 
+                        <li>Me comunico con claridad, seguridad y eficacia mostrando cualidades de liderazgo y creatividad.</li>
+                        <li>Me comprometo en el logro sostenido de mi desarrollo personal y profesional para identificar los constantes cambios y oportunidades que ofrecen las nuevas tecnologías.</li>
+                    </ul>
                 </div>
                 <div class="col">
                     <i class="fa-solid fa-location-dot"></i>
                     <span class="titulo-detalle">Ubicación</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                    <p>Actualente resido en la ciudad de San Luis Capital, cuento con movilidad y disponibilidad para reubicarme</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53356.94860390178!2d-66.3446852113134!3d-33.29765198923944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43954196ca6cd%3A0x7fc2e3b4d49ecc83!2sSan%20Luis!5e0!3m2!1ses!2sar!4v1677018920295!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col">
                     <i class="fa-solid fa-flag"></i>
                     <span class="titulo-detalle">Intereses</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                    <ul>
+                        <li>Desrrollo de software</li>
+                        <li>Web development</li>
+                        <li>Diseño grafico</li>
+                        <li>Desarrollo y trabajo con IA</li>
+                        <li>Nuevas tecnologias</li>
+                    </ul>
                 </div>
             </div>
         </div>    
-    </sectio>
+    </section>
 
     <!-- Seccion Habilidades -->
-    <seccion class="habilidades" id="habilidades">
+    <section class="habilidades" id="habilidades">
         <div class="contenido-seccion">
             <h2 class="titulo">Habilidades</h2>
             <div class="diseño">
@@ -91,19 +102,20 @@
             </div>
             <div class="electronica">
                 <span>Electrónica</span>
-                <p>Control y automatización Industrial</p>
-                <p>Control y automatización Industrial</p>
-                <p>Diseño de circuitos</p>
-                <p>Arquitectura de computadoras</p>
-                <p>Diseño HDL</p>
-                <p>IoT</p>
+                <ul>
+                    <li>Control y automatización Industrial</li>
+                    <li>Diseño de circuitos</li>
+                    <li>Arquitectura de computadoras</li>
+                    <li>Diseño HDL</li>
+                    <li>IoT</li>
+                </ul>
             </div>            
         </div>
         
-    </seccion>
+    </section>
 
     <!-- Seccion Experiencia -->
-    <seccion class="experiencia" id="experiencia">
+    <section class="experiencia" id="experiencia">
         <div class="contenido-seccion">
             <h2 class="titulo-seccion">Experiencia Laboral</h2>
             <table>
@@ -152,7 +164,7 @@
                 </tr>
             </table>
         </div>
-    </seccion>   
+    </section>   
     
     <!-- Seccion Contacto -->
     <section class="contacto" id="contacto">

@@ -31,7 +31,7 @@ html{
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 10px;
-    background-color: #6ACF65;
+    background-color: #53a44f;
     padding: 15px;
     border-radius: 20px 5px;
     text-align: left;
@@ -149,6 +149,17 @@ html{
     display: block;
     padding-bottom: 5px;
 }
+.sobremi .contenido-seccion .fila .col ul{
+    list-style-type: circle;
+    list-style-position:inside;
+}
+.sobremi .contenido-seccion .fila .col ul li{
+    padding: 10px;
+}
+.sobremi .contenido-seccion .fila .col iframe{
+    width: auto;
+    height: 60%;
+}
 
 
 
@@ -192,11 +203,15 @@ html{
     font-size: 25px;
     font-weight: bold;
 }
-.habilidades .contenido-seccion .electronica p{
-    display: block;
+.habilidades .contenido-seccion .electronica ul{
     padding: 8px;
     font-size: 18px;
     font-weight: bold;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.habilidades .contenido-seccion .electronica ul li{
+    padding: 10px;
 }
 
 
@@ -259,7 +274,7 @@ html{
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
 
     .sobremi .contenido-seccion .fila{
         display: block;
