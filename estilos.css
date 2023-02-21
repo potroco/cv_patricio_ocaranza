@@ -66,7 +66,7 @@ html{
 .inicio .contenido-seccion .info h1{
     font-size: 3rem;
     letter-spacing: 1px;
-    }
+}
 .inicio .contenido-seccion .info h2{
     font-size: normal;
     font-size: 20px;
@@ -274,7 +274,19 @@ html{
         margin: auto;
         margin-top: 20px;
     }
-
-
-     /* FALTA LAS OTRAS IMAGENES SER RESPONSIVAS */
+    .habilidades .contenido-seccion .programacion .programas img{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+    }
+    .habilidades .contenido-seccion .diseño .programas img{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+    }
+    .inicio .contenido-seccion .info h1{
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+    
 }
